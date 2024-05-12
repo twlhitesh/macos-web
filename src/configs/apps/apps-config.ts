@@ -66,7 +66,7 @@ const viewSource = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
+  externalAction: () => window.open('https://github.com/twlhitesh/macos-web', '_blank'),
 });
 
 const vercel = createAppConfig({
@@ -75,7 +75,7 @@ const vercel = createAppConfig({
 
   shouldOpenWindow: false,
   externalAction: () =>
-    window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
+    window.open('https://vercel.com/twlhiteshs-projects/hitesh-os/CS3FdzqxNbDv6TmvPLq1yu1WtA2R', '_blank'),
 
   dockBreaksBefore: true,
 });
@@ -96,7 +96,7 @@ export const appsConfig = {
 
   // 'system-preferences': systemPreferences,
 
-  'purus-twitter': purusTwitter,
+  ':)': Twitter,
   'view-source': viewSource,
 
   vercel,
